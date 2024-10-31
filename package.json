@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:chrome": "node tests/scripts/run-tests-in-chrome.js",
+    "test:edge": "node tests/scripts/run-tests-in-edge.js",
+    "test:firefox": "node tests/scripts/run-tests-in-firefox.js"
   },
   "repository": {
     "type": "git",
